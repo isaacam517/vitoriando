@@ -1,12 +1,16 @@
 <template>
     <div id="sobremim">
-            <h2>Sobre Mim</h2>
-        
-            <div class="imagem-e-p">
-                <img alt="Vitoriando logo" src="../assets/img-sobre-mim.jpg">
-                <div>
-                    <p>Olá, meu nome é <strong>ISAAC A. MARTINIANO</strong> formado em Análise e Desenvolvimento de Sistemas,
-                        atualmente cursando informática para WEB, com foco em desenvolvimento de sistemas.
+        <b-div class="w-100">
+            <b-card no-body class="overflow-hidden" style="">
+                <b-row no-gutters>
+                <b-col md="6">
+                    <b-card-img :src="require('../assets/img-sobre-mim.jpg')" alt="Image" class="rounded-0"></b-card-img>
+                </b-col>
+                <b-col md="6">
+                    <b-card-body title="ISAAC A. MARTINIANO">
+                    <b-card-text>
+                    <p>Olá, sou formado em Análise e Desenvolvimento de Sistemas,
+                    atualmente cursando informática para WEB, com foco em desenvolvimento de sistemas.
                     </p>
                     <p><strong>Conhecimentos:</strong></p>
                     <p>HTML5, CSS3, JAVASCRIPT, ReactJS, VueJS, ASP.NET, PHP, Firebase, MySQL, Bootstrap.</p>
@@ -15,9 +19,12 @@
                     <p>Até o momento essa aplicação foi desenvolvida com <strong>html5, css3, javascript(VueJS)</strong>, 
                         a mesma passará por atualizações contínuas para uma melhor experiência dos usuários.</p>
                     <p> <i> "A persistência é o caminho do êxito"</i></p>    
-                </div>
-            </div>
-        
+                    </b-card-text>
+                    </b-card-body>
+                </b-col>
+                </b-row>
+            </b-card>
+        </b-div>    
     </div>
 </template>
 <script>
