@@ -18,7 +18,6 @@ export default {
         background-color:rgb(7, 98, 153);
         box-shadow: 0 0 10px rgbd(0,0,0, 0.2);
         color: #FFF;
-        position: fixed;
         bottom: 0;
     }
 </style>

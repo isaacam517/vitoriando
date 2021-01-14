@@ -5,8 +5,8 @@
     <Vermelho/>
     <Amarelo/>
     
-    <Footer/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
