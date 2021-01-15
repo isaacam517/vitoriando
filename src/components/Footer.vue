@@ -1,6 +1,8 @@
 <template>
   <div id="footer">
-      <p>Todos os Direitos Reservados 2021 IAM</p>
+      <div class="mt-2">
+        <p>© Copyright 2021 IAM</p>
+      </div>
   </div>
 </template>
 <script>
