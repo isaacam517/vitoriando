@@ -15,6 +15,7 @@
                     <router-link tag="button" to="/noticias">Notícias</router-link>
                     <router-link tag="button" to="/entretenimento">Entretenimento</router-link>
                     <router-link tag="button" to="/vagas">Vagas</router-link>
+                    <router-link tag="button" to="/cadastrarvagas/:userid">Cadastrar Vagas</router-link>
                 </b-navbar-nav>
                 </b-collapse>
             </div>

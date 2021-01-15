@@ -6,7 +6,9 @@
     <Amarelo/>
     
     <router-view/>
-    <Footer/>
+    <div class="footer">
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -34,6 +36,9 @@ export default {
   #app {
   margin: 0;
   padding: 0;
+  }
+  .footer{
+    bottom: 0;
   }
   
 </style>
